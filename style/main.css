@@ -1,9 +1,5 @@
 /* Sistema de Grid Basico para ser usado nos meus projetos  V1.0 */
 
-
-
-
-
 /* Reset Basico da pagina  (Melhorar posteriormente esse RESET) */
 
 *{
@@ -14,6 +10,11 @@
             box-sizing: border-box;
 }
 
+/* Configuração do Body */
+
+body{
+    background-color: #d2d6dd;
+}
 
 /* Containers */
 .container{
@@ -105,9 +106,17 @@
 }
 
 
+.login{
+    border: 1px solid ;
+    width: 40%;
+    height:400px;
+    margin: auto;
+    margin-top: 10%;
+}
+
 /* Botões */
 
-
+/* Formulario - inputs */
 
 
 

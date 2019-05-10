@@ -7,19 +7,36 @@
     <title>Login</title>
 
     <!-- GRID CSS -->
-    <link rel="stylesheet" href="GridCSS/grid.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+
 </head>
 <body>
 
-    <div class="container">
-       
-        <form action="">
-            <h1>Login</h1>
-            <input type="text" placeholder="Digite seu email">
+    <div class="login">
+        <h1>Bem vindo!</h1>
+        <p>Por favor, digite seu usuário e senha.</p>
+        <hr>
 
-            <input type="text" placeholder="Digite sua senha">
+        <form action="">
+            <label for="email">
+            <input type="email" placeholder="Username">    
+            </label>
+
+            <label for="senha">
+            <input type="password" placeholder="Senha">    
+            </label>
+
+
+            <button>Log in</button>
+
+            <a href="#">Esqueceu sua senha?</a>
+            <a href="#">Registre uma nova conta!</a>
+
+
         </form>
     </div>
-    
+ 
 </body>
 </html>
